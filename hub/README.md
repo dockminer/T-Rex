@@ -6,7 +6,7 @@
 
 # Supported tags and respective `Dockerfile` links
 
-- [`0.19.10`, `latest`](https://github.com/dockminer/miniZ/blob/a69f01e4c91acb2a3e2b28ffdc2c9cda187ea0cc/Dockerfile)
+- [`0.19.10`, `0.19`, `0`, `latest`](https://github.com/dockminer/T-Rex/blob/31943a3d3a19d26407c3f9304643dcfd06455bd7/Dockerfile)
 
 # What is T-Rex?
 
