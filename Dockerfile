@@ -5,8 +5,8 @@ WORKDIR /tmp
 RUN mkdir t-rex && \
     apt update && apt install tar wget -y
 
-RUN wget https://github.com/trexminer/T-Rex/releases/download/0.19.11/t-rex-0.19.11-linux-cuda10.0.tar.gz && \
-    tar xf t-rex-0.19.11-linux-cuda10.0.tar.gz -C t-rex
+RUN wget https://github.com/trexminer/T-Rex/releases/download/0.19.12/t-rex-0.19.12-linux-cuda10.0.tar.gz && \
+    tar xf t-rex-0.19.12-linux-cuda10.0.tar.gz -C t-rex
 
 
 FROM nvidia/cuda:10.2-base
