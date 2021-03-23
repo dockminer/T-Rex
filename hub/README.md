@@ -6,7 +6,8 @@
 
 # Supported tags and respective `Dockerfile` links
 
-- [`0.19.11`, `0.19`, `0`, `latest`](https://github.com/dockminer/T-Rex/blob/eb8537c3c0f67db2ab182ec04e9649f7d84bdb94/Dockerfile)
+- [`0.19.12`, `0.19`, `0`, `latest`](https://github.com/dockminer/T-Rex/blob/70459f0d667ea124483a7c13bac19accf9675608/README.md)
+- [`0.19.11`](https://github.com/dockminer/T-Rex/blob/eb8537c3c0f67db2ab182ec04e9649f7d84bdb94/Dockerfile)
 - [`0.19.10`](https://github.com/dockminer/T-Rex/blob/31943a3d3a19d26407c3f9304643dcfd06455bd7/Dockerfile)
 
 # What is T-Rex?
