@@ -2,11 +2,14 @@ FROM ubuntu:20.04 AS builder
 
 WORKDIR /tmp
 
+ARG T_REX_VERSION="0.21.5"
+ARG T_REX_FILENAME="t-rex-0.21.5-linux.tar.gz"
+
 RUN mkdir t-rex && \
     apt update && apt install tar wget -y
 
-RUN wget https://github.com/trexminer/T-Rex/releases/download/0.19.12/t-rex-0.19.12-linux-cuda10.0.tar.gz && \
-    tar xf t-rex-0.19.12-linux-cuda10.0.tar.gz -C t-rex
+RUN wget https://github.com/trexminer/T-Rex/releases/download/${T_REX_VERSION}/${T_REX_FILENAME} && \
+    tar xf ${T_REX_FILENAME} -C t-rex
 
 
 FROM nvidia/cuda:10.2-base
