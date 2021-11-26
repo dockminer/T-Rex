@@ -2,8 +2,8 @@ FROM ubuntu:20.04 AS builder
 
 WORKDIR /tmp
 
-ARG T_REX_VERSION="0.23.1"
-ARG T_REX_FILENAME="t-rex-0.23.1-linux.tar.gz"
+ARG T_REX_VERSION="0.24.7"
+ARG T_REX_FILENAME="t-rex-0.24.7-linux.tar.gz"
 
 RUN mkdir t-rex && \
     apt update && apt install tar wget -y
