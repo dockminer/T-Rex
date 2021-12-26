@@ -6,7 +6,8 @@
 
 # Supported tags and respective `Dockerfile` links
 
-- [`0.24.7`, `0.24`, `0`, `latest`](https://github.com/dockminer/T-Rex/blob/v0.24.7/README.md)
+- [`0.24.8`, `0.24`, `0`, `latest`](https://github.com/dockminer/T-Rex/blob/v0.24.7/README.md)
+- [`0.24.7`](https://github.com/dockminer/T-Rex/blob/v0.24.7/README.md)
 - [`0.23.1`, `0.23`](https://github.com/dockminer/T-Rex/blob/v0.23.1/README.md)
 - [`0.21.5`, `0.21`](https://github.com/dockminer/T-Rex/blob/v0.21.5/README.md)
 - [`0.19.12`, `0.19`](https://github.com/dockminer/T-Rex/blob/70459f0d667ea124483a7c13bac19accf9675608/Dockerfile)
@@ -36,4 +37,4 @@ In default, the docker expose the 4067 port for HTTP and 4068 port for telnet co
 This image is built on top of the following softwares:
 
 - [Nvidia CUDA Container](https://gitlab.com/nvidia/container-images/cuda) v10.2
-- [T-Rex](https://github.com/trexminer/T-Rex) v0.24.7
+- [T-Rex](https://github.com/trexminer/T-Rex) v0.24.8

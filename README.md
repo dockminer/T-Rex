@@ -21,4 +21,4 @@ In default, the docker expose the 4067 port for HTTP and 4068 port for telnet co
 This image is built on top of the following softwares:
 
 - [Nvidia CUDA Container](https://gitlab.com/nvidia/container-images/cuda) v10.2
-- [T-Rex](https://github.com/trexminer/T-Rex) v0.24.7
+- [T-Rex](https://github.com/trexminer/T-Rex) v0.24.8
